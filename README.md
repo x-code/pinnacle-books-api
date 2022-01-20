@@ -18,23 +18,25 @@
 
  1. List of book ```[GET] http://localhost:3000/api/books```
 
- 2. Create book ```[POST] http://localhost:3000/api/books``` Request Body:
+ 2. Create book ```[POST] http://localhost:3000/api/books``` 
+ ###Request Body:
         {
-                title: 'Dilan 1990',
-                author: 'Rian Firandika',
-                isbn: '0987654321',
-                publishedOn: '2019',
-                numberOfPages: '1'
+                "title": "Dilan 1990",
+                "author": "Rian Firandika",
+                "isbn": "0987654321",
+                "publishedOn": "2019",
+                "numberOfPages": "1"
         }
 3. Detail of book ```[GET] http://localhost:3000/api/books/{bookId}```
 
-4. Update book ```[PUT] http://localhost:3000/api/books/{bookId}``` Request Body:
+4. Update book ```[PUT] http://localhost:3000/api/books/{bookId}``` 
+###Request Body:
         {
-                title: 'Dilan 1990',
-                author: 'Rian Firandika',
-                isbn: '0987654321',
-                publishedOn: '2019',
-                numberOfPages: '1'
+                "title": "Dilan 1991",
+                "author": "Rian",
+                "isbn": "0987654320",
+                "publishedOn": "2019",
+                "numberOfPages": "1"
         }
 
 5. Delete book ```[DELETE] http://localhost:3000/api/books/{bookId}```
