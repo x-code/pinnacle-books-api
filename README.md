@@ -17,10 +17,10 @@
  ## Api endpoint
 
  1. List of book
- <br /> ```[GET] http://localhost:3000/api/books```
+ <br /> ```[GET]```  ``` http://localhost:3000/api/books```
 
  2. Create book 
-<br /> ```[POST] http://localhost:3000/api/books``` 
+<br /> ```[POST]```  ``` http://localhost:3000/api/books``` 
  <br /> Request Body:
         {
                 "title": "Dilan 1990",
@@ -29,10 +29,10 @@
                 "publishedOn": "2019",
                 "numberOfPages": "1"
         }
-3. Detail of book ```[GET] http://localhost:3000/api/books/{bookId}```
+3. Detail of book ```[GET]```  ``` http://localhost:3000/api/books/{bookId}```
 
 4. Update book 
-<br /> ```[PUT] http://localhost:3000/api/books/{bookId}``` 
+<br /> ```[PUT]```  ```http://localhost:3000/api/books/{bookId}``` 
 <br /> Request Body:
         {
                 "title": "Dilan 1991",
