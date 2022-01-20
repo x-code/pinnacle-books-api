@@ -42,5 +42,5 @@
                 "numberOfPages": "1"
         }
 
-5. Delete book ```[DELETE] http://localhost:3000/api/books/{bookId}```
+5. Delete book ```[DELETE]```  ``` http://localhost:3000/api/books/{bookId}```
 
